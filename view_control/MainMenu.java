@@ -127,6 +127,16 @@ public class MainMenu extends JFrame {
 			}
 		});
 		
+		
+		JMenuItem mntmSort = new JMenuItem("Lists and Sorts");
+		mntmSort.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				UI frame = new UI();
+				frame.setVisible(true);
+			}
+		});
+		mnJig.add(mntmSort);
+		
 		JMenuItem mntmNewMenuItem = new JMenuItem("Method Show");
 		mntmNewMenuItem.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
