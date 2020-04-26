@@ -1,4 +1,4 @@
-package ListSortMiniLab;
+package view_control;
 
 import java.util.*;
 
